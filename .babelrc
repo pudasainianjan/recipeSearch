@@ -1,0 +1,15 @@
+
+{
+    "presets": [   //preset are collection of code transform plugins 
+        ["env", {
+            "targets": {
+                "browsers": [
+                    "last 5 versions",  //code as per last 5 versions supporting browsers will be converted
+                    "ie >= 8"
+                ]
+            }
+        }]
+    ]
+}
+
+

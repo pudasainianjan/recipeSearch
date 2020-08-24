@@ -1,0 +1,31 @@
+{
+  "name": "03recipe_searcher_app",
+  "version": "1.0.0",
+  "description": "03recipe_searcher_app project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Anjan",
+  "license": "ISC",
+  "homepage": "https://pudasainianjan.github.io/recipeSearch",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "html-webpack-plugin": "^3.0.7",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "babel-polyfill": "^6.26.0",
+    "fractional": "^1.0.0",
+    "gh-pages": "^3.1.0",
+    "uniqid": "^5.2.0"
+  }
+}
